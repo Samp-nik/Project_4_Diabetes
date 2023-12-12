@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS diabetes_binary_health_indicators_BRFSS2015 (
+CREATE TABLE diabetes_binary_5050split_health_indicators_BRFSS2015 (
     Diabetes_binary NUMERIC,
     HighBP NUMERIC,
     HighChol NUMERIC,
@@ -23,4 +23,4 @@ CREATE TABLE IF NOT EXISTS diabetes_binary_health_indicators_BRFSS2015 (
     Income NUMERIC
 );
 
-SELECT * FROM diabetes_binary_health_indicators_BRFSS2015;
+SELECT * FROM diabetes_binary_5050split_health_indicators_BRFSS2015;
