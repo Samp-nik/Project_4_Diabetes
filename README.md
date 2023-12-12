@@ -5,9 +5,8 @@
 Although there is no cure for diabetes, strategies like losing weight, eating healthy, being active, and receiving medical treatments can mitigate the harms of the disease. 
 
 # Data 
-For this project, the dataset is on Diabetes Health indicators from *kaggle.com*. link: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
-The Behavioral Risk Factor Surveillance System(BRFSS) is a health-related telephone survey that is collected annually by the *CDC*. The survey collects responses from over *400,000 Americans* on health-related risk behaviors,chronic health conditions, and the use of preventative services. 
-The data package provided 3 files. For this project, the csv file with the diabetes 50-50 split health indicators provided the best option to accurately predict if an individual has diabetes. This file provided an equal 50-50 split of respondents with no diabetes to pre-diabetes/diabetes, 0 for no diabetes and 1 for pre-diabetes/diabetes.
+The Behavioral Risk Factor Surveillance System (BRFSS) is a health-related telephone survey that is collected annually by the *CDC*. The survey collects responses from over *400,000 Americans* on health-related risk behaviors, chronic health conditions, and the use of preventative services. 
+The data package provided 3 files. For this project, the csv file we focused on the csv file titled diabetes_binary_5050split_health_indicators_BRFSS2015.csv. This csv file has 70,693 survey responses to the CDC's survey. This is an equal split of respondents with no diabetes and with either pre-diabetes or diabetes. The targer variable *diabetes_binary* has 2 classes, 0 for no diabetes and 1 for diabetes/pre-diabetes.
 
 # Skit-learn Classification 
 
