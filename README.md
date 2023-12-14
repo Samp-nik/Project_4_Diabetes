@@ -9,6 +9,10 @@ The Behavioral Risk Factor Surveillance System (BRFSS) is a health-related telep
 The data package provided 3 files. For this project, the csv file we focused on is the one titled *diabetes_binary_5050split_health_indicators_BRFSS2015.csv*. 
 This csv file has 70,693 survey responses to the CDC's survey. This is an equal split of respondents with no diabetes and either pre-diabetes or diabetes. The target variable *diabetes_binary* has 2 classes, 0 for no diabetes and 1 for diabetes/pre-diabetes.
 
+
+# Supervised Learning 
+This code performs binary classification on health indicator data related to diabetes. Initially, it reads the data from a CSV file into a Pandas DataFramee. It then creates separate sets for labels (y) and features (X), with the labels indicating the presence or absence of diabetes. The features include various health indicators like BMI, smoking status, and age. After checking the balance of the labels, the data is split into training and testing sets. A logistic regression model is then fitted using the original data, and its performance is evaluated using metrics such as accuracy, a confusion matrix, and a classification report. The process is repeated with resampled training data using the RandomOverSampler to address class imbalance, and the resulting model is also evaluated. The balanced accuracy scores and classification reports for both models are provided. The logistic regression model achieves an accuracy of 75% on the original data and 74% on the resampled data, indicating a balanced performance for the binary classification task. A warning is raised in the resampled model, suggesting potential future improvements in model training convergence.
+
 # Skit-learn Classification 
 
 # Visualizations
