@@ -13,8 +13,12 @@ This csv file has 70,693 survey responses to the CDC's survey. This is an equal 
 # Supervised Learning 
 This code performs binary classification on health indicator data related to diabetes. Initially, it reads the data from a CSV file into a Pandas DataFramee. It then creates separate sets for labels (y) and features (X), with the labels indicating the presence or absence of diabetes. The features include various health indicators like BMI, smoking status, and age. After checking the balance of the labels, the data is split into training and testing sets. A logistic regression model is then fitted using the original data, and its performance is evaluated using metrics such as accuracy, a confusion matrix, and a classification report. The process is repeated with resampled training data using the RandomOverSampler to address class imbalance, and the resulting model is also evaluated. The balanced accuracy scores and classification reports for both models are provided. The logistic regression model achieves an accuracy of 75% on the original data and 74% on the resampled data, indicating a balanced performance for the binary classification task. A warning is raised in the resampled model, suggesting potential future improvements in model training convergence.
 
-# Skit-learn Classification 
-
 # Visualizations
+We created key visualizations to show the risk factors  of Diabetes. 
+![liz graph](https://github.com/Samp-nik/Project_4_Diabetes/assets/136443525/b886aa19-ebb4-4222-a9cc-c7061a382dc1)
+
+#### BMI Visuals
+![BMI Visuals](https://github.com/Samp-nik/Project_4_Diabetes/assets/136443525/842983e9-bed3-4871-a660-8bc9b5d4704e)
 
 # Conclusion
+This model was able to successully create a model that reflected 75% accuracy for prediciting diabetes based on certain risk factors. 
