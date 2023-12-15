@@ -21,4 +21,4 @@ We created key visualizations to show the risk factors  of Diabetes.
 ![BMI Visuals](https://github.com/Samp-nik/Project_4_Diabetes/assets/136443525/842983e9-bed3-4871-a660-8bc9b5d4704e)
 
 # Conclusion
-This model was able to successully create a model that reflected 75% accuracy for prediciting diabetes based on certain risk factors. 
+  The model was able to successully create a model that reflected 75% accuracy for prediciting diabetes based on certain risk factors. The original dataset provided a higher accuracy of over 80%, however, the dataset had a greater split of those who actually has diabetes. This showed potential inaccuracies in the model's prediction of diabetes. The 5050 binary split dataset provided an accuracy of 70%. Through filtering of the data, we were able to raise the accuracy to 75%. 
